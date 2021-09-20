@@ -11,28 +11,26 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SingleChildScrollView(
-        child: Stack(
-          children: [
-            SafeArea(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Header(),
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Tabs(),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  SlidingPageView(),
-                ],
-              ),
+      body: Stack(
+        children: [
+          SafeArea(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Header(),
+                SizedBox(
+                  height: 30,
+                ),
+                Tabs(),
+                SizedBox(
+                  height: 10,
+                ),
+                SlidingPageView(),
+              ],
             ),
-            TicketsBottomSheet()
-          ],
-        ),
+          ),
+          TicketsBottomSheet()
+        ],
       ),
     );
   }
@@ -47,7 +45,7 @@ class Header extends StatelessWidget {
       margin: EdgeInsets.only(right: 30, left: 30, top: 20),
       child: Text(
         'Shaimaa Salama',
-        style: TextStyle(fontSize: 20),
+        style: TextStyle(fontSize: 25, fontStyle: FontStyle.normal),
       ),
     );
   }
