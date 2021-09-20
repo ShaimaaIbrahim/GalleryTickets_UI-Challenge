@@ -73,7 +73,7 @@ class SlidingCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     /*
-      to make transformation at top level when reach 0.5 and ther return near to 0 again
+      to make transformation at top level when reach 0.5 and then return near to 0 again
       we should use Gaussin function for this....
      */
     double gauss = math.exp(-(math.pow((offset.abs() - 0.5), 2) / 0.08));
