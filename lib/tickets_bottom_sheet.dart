@@ -274,7 +274,7 @@ class TextHeader extends StatelessWidget {
 }
 
 final List<Event> events = [
-  Event('hyper.png', 'Shenzhen GLOBAL DESIGN AWARD 2018', '4.20-30'),
-  Event('hyper.png', 'Shenzhen GLOBAL DESIGN AWARD 2018', '4.20-30'),
-  Event('hyper.png', 'Dawan District Guangdong Hong Kong', '4.28-31'),
+  Event('one.png', 'Shenzhen GLOBAL DESIGN AWARD 2018', '4.20-30'),
+  Event('two.png', 'Shenzhen GLOBAL DESIGN AWARD 2018', '4.20-30'),
+  Event('three.png', 'Dawan District Guangdong Hong Kong', '4.28-31'),
 ];

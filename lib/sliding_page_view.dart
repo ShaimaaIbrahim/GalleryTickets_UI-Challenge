@@ -38,17 +38,17 @@ class _SlidingPageViewState extends State<SlidingPageView> {
           SlidingCard(
               name: 'shaimaa salma being late for my gfggf 00---3',
               date: '4.28-31',
-              assetName: 'hyper.png',
+              assetName: 'one.png',
               offset: pageOffset),
           SlidingCard(
               name: 'shaimaa salma being late for my gfggf 00---3',
               date: '4.28-31',
-              assetName: 'hyper.png',
+              assetName: 'two.png',
               offset: pageOffset - 1),
           SlidingCard(
               name: 'shaimaa salma being late for my gfggf 00---3',
               date: '4.28-31',
-              assetName: 'hyper.png',
+              assetName: 'three.png',
               offset: pageOffset - 2),
         ],
       ),
